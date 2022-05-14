@@ -1,0 +1,35 @@
+Como andar entre diretorios:
+	cd nome_do_dir
+Como criar um dirtetório:
+	mkdir nome_do_dir
+Como ver os diretórios de uma pasta:
+	ls
+
+Preparando o usuário do git:
+	git config --global user.name "My Name"
+	git config --global user.email myEmail@example.com
+
+
+1. Preparando um novo repositório:
+	mkdir git_exercise
+	cd Desktop/git_exercise/
+	git init .
+2. Vendo o status:
+	git status
+3. Adicionando e comitando
+	git add .
+	git commit -m "comentário breve"
+4. git push
+
+Como ver os commits feitos:
+	git log
+	ou
+	git reflog
+	ou
+	git log --online
+
+Como voltar um commit específico:
+	git reset --hard hash
+
+Como voltar um commit específico:
+	git restore -staged file
